@@ -1,0 +1,46 @@
+
+nav {
+    font-size: 22px;
+    font-family: monospace;    
+    background-color: #3d3d3d;
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    width: 80%;
+    top: 0;
+    margin-left: 10%;
+}
+
+#logo {
+    float: left;
+    color: #230341; 
+}
+
+nav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+ nav a:hover {
+     color: #230341;
+}
+
+ h1 {
+     color: #230341;
+ }
+body {
+    color: #FFF;
+    background-color: #3d3d3d;
+}
+.panel {
+    min-height: 150vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: monospace;
+    margin: 5%
+}
+
+

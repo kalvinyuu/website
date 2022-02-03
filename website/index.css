@@ -1,0 +1,56 @@
+
+nav {
+    font-size: 22px;
+    font-family: courier, monospace;    
+    background-color: #212323;
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    width: 80%;
+    top: 0;
+    margin-left: 10%;
+}
+
+#logo {
+    float: left;
+    color: #3d15db; 
+}
+
+nav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+ nav a:hover {
+     color: #3d15db;
+}
+
+ h1 {
+     font-size: 36px;
+     color: #3d15db;
+ }
+ h2 { font-size: 30px;
+      
+    }
+
+ h3{
+     font-size: 24px;
+     color: #3d15db;     
+ }
+body {
+    color: #FFF;
+    background-color: #212323;
+}
+.panel {
+    min-height: 150vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: monospace;
+    margin: 5%
+}
+
+
+

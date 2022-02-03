@@ -53,3 +53,7 @@ function handleIntersect(entries, observer) {
   });
 } 
 */
+
+import * as from 'dat.gui'
+
+const gui = new dat.GUI

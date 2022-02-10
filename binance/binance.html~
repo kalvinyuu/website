@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="binance.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ID=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Crypto Holdings</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <p id="heading">Crypto Holdings</p>
+    <div>
+      <h1>ADA</h1>
+      <p>Cardono</p>
+      <h1 class="crypto" id="ada">---</h1>
+    </div>
+    <div>
+      <h1>CRO</h1>
+      <p>Crypto.com</p>
+      <h1 class="crypto" id="cro">---</h1>
+    </div>
+    <div>
+      <h1>ETH</h1>
+      <p>Cardono</p>
+      <h1 class="crypto" id="Eth">---</h1>
+    </div>
+    <div>
+      <h1>POLS</h1>
+      <p>Cardono</p>
+      <h1 class="crypto" id="POLS">---</h1>
+    </div>
+    <div>
+      <h1>SOL</h1>
+      <p>Cardono</p>
+      <h1 class="crypto" id="sol">---</h1>
+    </div>
+    <script src="binance.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+body {
+    
+}
+#heading {
+    font-size: xx-large;
+}
+.crypto {
+    color: white;
+}

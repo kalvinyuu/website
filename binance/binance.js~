@@ -1,0 +1,12 @@
+
+let ws  = new WebSocket("wss://stream.binance.com:9443/ws/adausdt@trade");
+let adaPrice = document.getElementById('ada');
+let lastPrice = null;
+
+ws.onmessage = (event) => {
+    let ADAObject = JSON.parse(event.data);
+    let price = parseFloat(ADAObject.p).toFixed(4);
+    adaPrice.innerText = price;
+    adaPrice.style.color = !lastPrice || lastPrice === price ? 'white' : price > lastPrice ? 'green' : 'red';
+    lastPrice = price;
+};

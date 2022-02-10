@@ -1,0 +1,22 @@
+
+body {
+    font-family:  monospace;
+    color: #FFF;
+    background-color: #212323;
+}
+#heading {
+    font-size: xx-large;
+}
+.crypto {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+div > * {
+    line-height: 80%;
+}
+h1 {
+    color: yellow;
+}
+div > p {
+    font-family: arial;
+}
